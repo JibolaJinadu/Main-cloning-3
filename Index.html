@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <script src="https://kit.fontawesome.com/101f10d6aa.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Styling.css">
+    <title>Cloning with pure HTML/CSS</title>
+</head>
+<body>
+    <main class="overall-container">
+        <section class="navbar-container">
+            <div class="navwrapper">
+                <nav class="navbar">
+                    <div>
+                        <img class="logo" src="Images/logo.png" alt="ig-logo">
+                    </div>
+                    <div>
+                        <ul>
+                            <li class="menu-list"><i class="fa-solid fa-house"></i><p>Home</p></li>
+                            <li class="menu-list"><span class="material-symbols-outlined"> search</span> <p>Search</p></li>
+                            <li class="menu-list"><span class="material-symbols-outlined"> explore</span> <p>Explore</p></li>
+                            <li class="menu-list"><span class="material-symbols-outlined"> chat</span> <p>Messages</p></li>
+                            <li class="menu-list"><span class="material-symbols-outlined"> favorite</span> <p>Notifications</p></li>
+                            <li class="menu-list"><span class="material-symbols-outlined"> add_circle </span> <p>Create</p></li>
+                            <li class="menu-list"> <img class="profilepix" src="Images/profile.jpeg" alt="myself"> <p>Profile</p></li>
+                        </ul>
+                    </div>
+                    <div class="navfooter">
+                        <span class="material-symbols-outlined"> menu </span>
+                        <p>More</p>
+                    </div>
+                </nav>
+            </div>
+        </section>
+        <section class="feeds-bar">
+            <div class="feeds-follow-cover">
+                <div class="feeds-wrapper">
+                    <div class="stories">
+                        <div class="new-posts"> New Posts</div>
+                        <div class="all-stories">
+                            <div class="first-story">
+                                <div class="fs-bk">
+                                    <img class="img-border" src="Images/ig-border.png"/>
+                                    <small>peaky..mind</small>
+                                    <div>
+                                        <img class="story1" src="Images/story1.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="first-story">
+                                <div class="fs-bk">
+                                    <img class="img-border" src="Images/ig-border.png"/>
+                                    <small>samuel4joe</small>
+                                    <div>
+                                        <img class="story2" src="Images/story2.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="first-story">
+                                <div class="fs-bk">
+                                    <img class="img-border" src="Images/ig-border.png"/>
+                                    <small>sigmashelby</small>
+                                    <div>
+                                        <img class="story3" src="Images/story3.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="first-story">
+                                <div class="fs-bk">
+                                    <img class="img-border" src="Images/ig-border.png"/>
+                                    <small>the&#95reality</small>
+                                    <div>
+                                        <img class="story4" src="Images/story4.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="first-story">
+                                <div class="fs-bk">
+                                    <img class="img-border" src="Images/ig-border.png"/>
+                                    <small>mentalpower</small>
+                                    <div>
+                                        <img class="story5" src="Images/story5.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="first-story">
+                                <div class="fs-bk">
+                                    <img class="img-border" src="Images/ig-border.png"/>
+                                    <small>the.legends</small>
+                                    <div>
+                                        <img class="story6" src="Images/story6.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="feeds">
+                        <div class="first-feed">
+                            <div class="ff-header">
+                                <div class="ff-bk-dp">
+                                    <div class="dp-cover">
+                                        <img class="img-border-dp" src="Images/ig-border.png"/>
+                                        <img class="dp1" src="Images/dp1.jpg">
+                                        <p>m.e.l.d&#95</p>
+                                    </div>
+                                    <div>
+                                        <span class="material-symbols-outlined">more_horiz</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ff-body">
+                                <img class="ff-image" src="Images/feed1.jpg" alt="first feed image">
+                            </div>
+                            <div class="ff-footer">
+                                <div class="feed-reactions">
+                                    <div> 
+                                        <span class="material-symbols-outlined"> favorite</span>
+                                        <span class="material-symbols-outlined"> maps_ugc </span>
+                                        <span class="material-symbols-outlined">send</span>
+                                    </div>
+                                    <div>
+                                        <span class="material-symbols-outlined">bookmark</span>
+                                    </div>
+                                </div>
+                                <div class="feed-details">
+                                    <span>Liked by <b>funmi&#95;ay</b> and <b> 109 others</b></span>
+                                    <p> <b>m.e.l.d&#95</b> we love family.....we love Christmas!  </p>
+                                    <p class="postedtime">View 179 comments</p>
+                                    <small class="postedtime">2 HOURS AGO</small>
+                                </div>
+                                <div class="feed-comment-button">
+                                    <input type="text" placeholder=" &nbsp;&nbsp; Add a comment &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    Post" id="commentsection" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="second-feed">
+                            <div class="ff-header">
+                                <div class="ff-bk-dp">
+                                    <div class="dp-cover">
+                                        <img class="img-border-dp" src="Images/ig-border.png"/>
+                                        <img class="dp1" src="Images/dp1.jpg">
+                                        <p>Shelbypower</p>
+                                    </div>
+                                    <div>
+                                        <span class="material-symbols-outlined">more_horiz</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ff-body">
+                                <img class="ff-image" src="Images/feed2.jpg" alt="first feed image">
+                            </div>
+                            <div class="ff-footer">
+                                <div class="feed-reactions">
+                                    <div> 
+                                        <span class="material-symbols-outlined"> favorite</span>
+                                        <span class="material-symbols-outlined"> maps_ugc </span>
+                                        <span class="material-symbols-outlined">send</span>
+                                    </div>
+                                    <div>
+                                        <span class="material-symbols-outlined">bookmark</span>
+                                    </div>
+                                </div>
+                                <div class="feed-details">
+                                    <span>Liked by <b>James Bond </b> and <b> 1,537 others</b></span>
+                                    <p> <b>&#95;Davido</b> e choke oooooo!!! we move!!!</p>
+                                    <p class="postedtime">View 604 comments</p>
+                                    <small class="postedtime">5 HOURS AGO</small>
+                                </div>
+                                <div class="feed-comment-button">
+                                    <input type="text" placeholder=" &nbsp;&nbsp; Add a comment &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    Post" id="commentsection" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="third-feed">
+                            <div class="ff-header">
+                                <div class="ff-bk-dp">
+                                    <div class="dp-cover">
+                                        <img class="img-border-dp" src="Images/ig-border.png"/>
+                                        <img class="dp1" src="Images/dp1.jpg">
+                                        <p>legend2legends</p>
+                                    </div>
+                                    <div>
+                                        <span class="material-symbols-outlined">more_horiz</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ff-body">
+                                <img class="ff-image" src="Images/feed3.jpg" alt="first feed image">
+                            </div>
+                            <div class="ff-footer">
+                                <div class="feed-reactions">
+                                    <div> 
+                                        <span class="material-symbols-outlined"> favorite</span>
+                                        <span class="material-symbols-outlined"> maps_ugc </span>
+                                        <span class="material-symbols-outlined">send</span>
+                                    </div>
+                                    <div>
+                                        <span class="material-symbols-outlined">bookmark</span>
+                                    </div>
+                                </div>
+                                <div class="feed-details">
+                                    <span>Liked by <b> &#95;Stutern&#95;techpower</b> and <b> 2,589 others</b></span>
+                                    <p> <b>techworld</b> Doing great Bro!.....</p>
+                                    <p class="postedtime">View 711 comments</p>
+                                    <small class="postedtime">7 HOURS AGO</small>
+                                </div>
+                                <div class="feed-comment-button">
+                                    <input type="text" placeholder=" &nbsp;&nbsp; Add a comment &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    Post" id="commentsection" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fourth-feed">
+                            <div class="ff-header">
+                                <div class="ff-bk-dp">
+                                    <div class="dp-cover">
+                                        <img class="img-border-dp" src="Images/ig-border.png"/>
+                                        <img class="dp1" src="Images/dp1.jpg">
+                                        <p>positive&#95;minds</p>
+                                    </div>
+                                    <div>
+                                        <span class="material-symbols-outlined">more_horiz</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ff-body">
+                                <img class="ff-image" src="Images/feed4.jpg" alt="first feed image">
+                            </div>
+                            <div class="ff-footer">
+                                <div class="feed-reactions">
+                                    <div> 
+                                        <span class="material-symbols-outlined"> favorite</span>
+                                        <span class="material-symbols-outlined"> maps_ugc </span>
+                                        <span class="material-symbols-outlined">send</span>
+                                    </div>
+                                    <div>
+                                        <span class="material-symbols-outlined">bookmark</span>
+                                    </div>
+                                </div>
+                                <div class="feed-details">
+                                    <span>Liked by <b>Olami02</b> and <b>others</b></span>
+                                    <p> <b>&#95;melJibson02&#95;</b> Coded life!</p>
+                                    <p class="postedtime">View 533 comments</p>
+                                    <small class="postedtime">8 HOURS AGO</small>
+                                </div>
+                                <div class="feed-comment-button">
+                                    <input type="text" placeholder=" &nbsp;&nbsp; Add a comment &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    Post" id="commentsection" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fifth-feed">
+                            <div class="ff-header">
+                                <div class="ff-bk-dp">
+                                    <div class="dp-cover">
+                                        <img class="img-border-dp" src="Images/ig-border.png"/>
+                                        <img class="dp1" src="Images/dp1.jpg">
+                                        <p>tabitha&#95;tems</p>
+                                    </div>
+                                    <div>
+                                        <span class="material-symbols-outlined">more_horiz</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ff-body">
+                                <img class="ff-image" src="Images/feed5.jpg" alt="first feed image">
+                            </div>
+                            <div class="ff-footer">
+                                <div class="feed-reactions">
+                                    <div> 
+                                        <span class="material-symbols-outlined"> favorite</span>
+                                        <span class="material-symbols-outlined"> maps_ugc </span>
+                                        <span class="material-symbols-outlined">send</span>
+                                    </div>
+                                    <div>
+                                        <span class="material-symbols-outlined">bookmark</span>
+                                    </div>
+                                </div>
+                                <div class="feed-details">
+                                    <span>Liked by <b>ifeoluwa33</b> and <b> 77 others</b></span>
+                                    <p> <b>temiloluwa</b> True talk......discipline is life!</p>
+                                    <p class="postedtime">View 997 comments</p>
+                                    <small class="postedtime">10 HOURS AGO</small>
+                                </div>
+                                <div class="feed-comment-button">
+                                    <input type="text" placeholder=" &nbsp;&nbsp; Add a comment &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    Post" id="commentsection" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="follow-wrapper">
+                    <div class="user-profile">
+                        <div class="userdetails">
+                            <div class="userimg">
+                                <img src="Images/profile.jpeg" alt="mypicture">
+                            </div>
+                            <div class="username">
+                                <p>Meljibson007..</p>
+                                <span>Jibola jinadu</span>
+                            </div>
+                            <div class="switch">
+                                <p>Switch</p>
+                            </div>
+                        </div>
+                        <div class="suggestion">
+                            <p> Suggestions for you</p>
+                            <span> See All</span>
+                        </div>
+
+                
+                        <div class="userdetails2">
+                            <div class="userimg2">
+                                <img src="Images/story1.jpg" alt="mypicture">
+                            </div>
+                            <div class="username">
+                                <p>prettyemi67</p>
+                                <span>Folake Goodluck</span>
+                            </div>
+                            <div class="switch">
+                                <p>Follow</p>
+                            </div>
+                        </div>
+                        <div class="userdetails2">
+                            <div class="userimg2">
+                                <img src="Images/dp2.jpg" alt="mypicture">
+                            </div>
+                            <div class="username">
+                                <p>uncommon.win</p>
+                                <span>Strongestofminds</span>
+                            </div>
+                            <div class="switch">
+                                <p>Follow</p>
+                            </div>
+                        </div>
+                        <div class="userdetails2">
+                            <div class="userimg2">
+                                <img src="Images/story5.jpg" alt="mypicture">
+                            </div>
+                            <div class="username">
+                                <p>quin&#95;lolly</p>
+                                <span>Adeleke Omolola</span>
+                            </div>
+                            <div class="switch">
+                                <p>Follow</p>
+                            </div>
+                        </div>
+                        <div class="userdetails2">
+                            <div class="userimg2">
+                                <img src="Images/story6.jpg" alt="mypicture">
+                            </div>
+                            <div class="username">
+                                <p>asake&#95;9icebeat&#95;</p>
+                                <span>Ayinde Asake</span>
+                            </div>
+                            <div class="switch">
+                                <p>Follow</p>
+                            </div>
+                        </div>
+                        <div class="userdetails2">
+                            <div class="userimg2">
+                                <img src="Images/story4.jpg" alt="mypicture">
+                            </div>
+                            <div class="username">
+                                <p>macmoney&#95;mak</p>
+                                <span>Business mogus</span>
+                            </div>
+                            <div class="switch">
+                                <p>Follow</p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
